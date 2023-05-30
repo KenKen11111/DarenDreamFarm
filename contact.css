@@ -1,0 +1,159 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body {
+  padding: 0;
+  margin-top: 0;
+  background: url(bgb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logoc{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+ height: 50px;
+ width: 50px;
+
+}
+
+
+nav {
+  max-width: auto;
+  max-height: auto;
+  background: #5A5A5A;
+  overflow: visible;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.brand{
+  color: white;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-align: left;
+}
+.dropbtn {padding: 10px 10px;
+  border: none;
+  border-radius: 0px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 100%;
+  border: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dropdown-content img {
+  width: 50px;
+  height: 50px;
+}
+.dropdown {
+  min-width: 100px;
+  padding: 8px 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  text-align: center;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-content: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: solid 5px lightslategrey;
+  }
+  
+  input[type="submit"] {
+    border: none;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .contact-info {
+    font-size: large;
+    margin-top: 10px;
+    padding-top: 0px;
+  }
+  
+  .contact-info p {
+    margin: 0;
+  }
+ form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid lightslategrey;
+}
